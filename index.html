@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width , intial-scale=1">
+    <title>
+        <b>My To-Do List</b>
+    </title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+           <div class="Todo-app">
+                <h2><b>My To Do List</b></h2>
+                <div class="row">
+                        <input type="text" id="input-box" placeholder="Enter your text">
+                        <button onclick="addTask()">Add</button>
+                </div>
+               <ul id="list-container">
+                    <li class="checked"> <input type="radio" id="html" name="Task1" value="HTML"><label for="html"><b>Task1</b></label><br><br></li>
+                    <li><input type="radio" id="html" name="Task1" value="HTML"><label for="html"><b>Task2</b></label><br><br></li>
+                    <li><input type="radio" id="html" name="Task1" value="HTML"><label for="html"><b>Task3</b></label><br><br></li>
+                </ul> 
+                <!----<div class="radiocheck">
+                            <input type="radio" id="html" name="Task1" value="HTML">
+                                <label for="html"><b>Task1</b></label><br><br>
+                       </div>
+                <input type="radio" id="css" name="Task2" value="CSS">
+                <label for="css"><b>Task2</b></label><br><br>
+                <input type="radio" id="javascript" name="Task3" value="JavaScript">
+                <label for="javascript"><b>Task3</b></label>--> 
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
